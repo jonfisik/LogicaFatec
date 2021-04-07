@@ -5,10 +5,10 @@ main(){
 	float x, y; // declaração da variávele do tipo de variável - float: ponto flutuante
 	
 	printf("Digite o primeiro valor: ");
-	scanf("%i", &x); 
+	scanf("%f", &x); 
 	
 	printf("Digite o segundo valor: ");
-	scanf("%i", &y); 
+	scanf("%f", &y); 
 	printf("\n");	
 	
 	if(x==y)
