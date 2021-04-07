@@ -14,7 +14,7 @@ main(){
     soma = num1+ num2;
     sub = num1 - num2;
     mult = num1*num2;
-    div = num1/num2;
+    div = num1/num2; // a divisão por % retorna apenas o resto da divisão
 // imprimir os resultados
 	printf("\n");
     printf("Soma %f + %f = %f \n", num1, num2, soma);
