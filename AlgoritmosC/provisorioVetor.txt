@@ -1,0 +1,46 @@
+/////////////////////////////////
+//    int vetor[5], i;
+
+//    for (i = 0; i < 5; i++) {
+//            vetor[i] = i + 4;
+//printf("%d\n",vetor[i]);
+ //   }
+/////////////////////////////////
+
+//   int x[3];
+//            int y;
+
+//            for (y = 0; y < 3; y++) {
+//x[y] = 10 + y;
+//printf("%d ",x[y]);
+//           }
+///////////////////////////////
+/* int vetor[5];
+            int indice;
+
+            printf("Escreva 5 numeros: ");
+
+            for (indice = 0; indice < 5; indice++) {
+                        scanf ("%d", &vetor[indice] );
+
+            }
+            for (indice = 0; indice < 5; indice++) {
+                printf("%d", vetor[indice] );
+            }
+
+int numero, d, numerod = 0, vetor[numerod], contador = 0;
+
+scanf("%d",&numero);
+for (d = 1; d <= numero; d++){
+
+if (numero % d == 0){
+vetor[contador] = d;
+contador++;
+numerod++;
+}
+}
+
+for(contador =0; contador < numerod; contador++){
+printf("%d\n",vetor[contador]);
+}
+*/
