@@ -37,6 +37,7 @@ float porcentagem(float num1, float num2){
 
 // rotina principal
 int main(){
+	system("Color 1E");
 	//setlocale(LC_ALL,"Portuguese");
     setlocale(LC_ALL,"Portuguese");
 	traco();
