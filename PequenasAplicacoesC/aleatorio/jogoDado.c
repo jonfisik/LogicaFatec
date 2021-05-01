@@ -2,6 +2,17 @@
 #include <stdlib.h>
 #include <time.h>
 
+/*
+Autor: Jonatan P. Paschoal
+versao: 1.0.0
+email: jonfisik@hotmail.com
+status: Professor - fisica
+data: 30/04/2021
+*/
+
+// Area de declaração
+void traco(void);
+
 int main(int argc, char *argv[]) {
 	
 	//setlocale(LC_ALL,"Portuguese");
@@ -16,5 +27,9 @@ int main(int argc, char *argv[]) {
 	
 	
 	return 0;
+}
+
+void traco(void){
+	printf("=============================\n");
 }
 
