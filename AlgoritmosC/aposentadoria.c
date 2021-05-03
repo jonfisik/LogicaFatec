@@ -13,19 +13,18 @@ main(){
 	int ano, ingresso, ano_atual, tempo_servico;
 	int idade  = 0;
 	
-	ano_atual = 2021;
 	// menu e entrado de dados
-	printf("=========APOSENTADORIA=========\n");
+	printf("==========APOSENTADORIA==========\n");
 	printf("Dados\n");
 	
 	printf("Ano de nascimento - \"aaaa\": ");
-	scanf("%i", &ano);
+	scanf("%d", &ano);
 	
 	printf("Ano de ingresso - \"aaaa\": ");
-	scanf("%i", &ingresso);
+	scanf("%d", &ingresso);
 	
 	printf("Ano atual - \"aaaa\": ");
-	scanf("%i", &ano_atual);
+	scanf("%d", &ano_atual);
 
 	printf("\n");
 	
@@ -33,11 +32,11 @@ main(){
 	tempo_servico = ano_atual - ingresso;
 	
 	if((idade >= 65 || tempo_servico >= 35) || (idade >= 60 && tempo_servico > 20)){
-		printf(" >> Requer aposentadoria");
+		printf(" >> Requer aposentadoria\n");
 	}else{
-		printf(" >> Nao requer aposentadoria");
+		printf(" >> Nao requer aposentadoria\n");
 	}
 	
-	printf(" - idade: %i.\n", &idade);
-	printf(" - tempo de servico: %i.\n", &tempo_servico);
+	printf(" - idade: %d\n", idade);
+	printf(" - tempo de servico: %d\n", tempo_servico);
 }
