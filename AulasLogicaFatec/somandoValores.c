@@ -13,17 +13,24 @@ void traco(void);
 void tracoSimples(void);
 //Declaração de variáveis
 int i;
+int x;
+int soma = 0;
 //Principal
 main(){
 //setlocale(LC_ALL,"Portuguese");
 	setlocale(LC_ALL,"Portuguese");
 //Título	
-	printf("\nMúltiplos de 3 e 5 até 100 V1.0.0\n");
+	printf("\nSomando 10 valores V1.0.0\n");
 	traco();
 	
-	for(i=1; i<100; i++){
-		if(i % 3 == 0 && i % 5 == 0){
-			printf(">> %i\n", i);
+	for(i=1; i<=10; i++){
+		printf("\nDigite o %iº valor >> ", i);
+		scanf("%d", &x);
+		soma = soma + x;
+		if(i<10){
+			printf("Resultado >>> %i\n", soma);
+		}else{
+			printf("Resultado Final [%i]\n", soma);
 		}
 	}
 	tracoSimples();
