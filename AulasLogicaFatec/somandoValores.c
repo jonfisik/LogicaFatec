@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <locale.h> //biblioteca de idiomas
-/*
+/* Soma valores
  * Autor: JPaschoal
  * versao: 1.0.0
  * email: jonfisik@hotmail.com
