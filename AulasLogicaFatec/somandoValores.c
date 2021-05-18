@@ -20,26 +20,27 @@ main(){
 //setlocale(LC_ALL,"Portuguese");
 	setlocale(LC_ALL,"Portuguese");
 //Título	
-	printf("\nSomando 10 valores V1.0.0\n");
+	printf("\nSequência 10 valores V1.0.0\n");
 	traco();
 	
-	for(i=1; i<=10; i++){
-		printf("\nDigite o %iº valor >> ", i);
-		scanf("%d", &x);
-		soma = soma + x;
-		if(i<10){
-			printf("Resultado >>> %i\n", soma);
+	for(i = 0; i <= 10; i++){
+		if(i % 2 == 0){
+			x = i*(-1);
 		}else{
-			printf("Resultado Final [%i]\n", soma);
+			x = i;
 		}
+		printf("-");
+		printf("[%i]", x);
+		printf("-");
 	}
+	printf("\n");
 	tracoSimples();
 	system("pause");
 }
 // definição das funções
 void traco(void){
-	printf("==================================\n");
+	printf("====================================\n");
 }
 void tracoSimples(void){
-	printf("__________________________________\n");
+	printf("____________________________________\n");
 }
