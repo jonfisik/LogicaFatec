@@ -5,7 +5,7 @@
  * Autor: JPaschoal
  * versao: 1.0.0
  * email: jonfisik@hotmail.com
- * status: Professor - fisica
+ * status: Professor - física
  * data: 14/05/2021
  */
 // Função
@@ -20,18 +20,18 @@ main(){
 //setlocale(LC_ALL,"Portuguese");
 	setlocale(LC_ALL,"Portuguese");
 //Título	
-	printf("\nSequência 10 valores V1.0.0\n");
+	printf("\nSomando 10 valores V1.0.0\n");
 	traco();
 	
-	for(i = 0; i <= 10; i++){
-		if(i % 2 == 0){
-			x = i*(-1);
+	for(i = 1; i <= 10; i++){
+		printf("\nDigite o %i valor >> ", i);
+		scanf("%d", &x);
+		soma = soma + x;
+		if(i < 10){
+			printf("Resultado >>> %i.\n", soma);
 		}else{
-			x = i;
+			printf("Resultado final [%i].\n", soma);
 		}
-		printf("-");
-		printf("[%i]", x);
-		printf("-");
 	}
 	printf("\n");
 	tracoSimples();
@@ -39,8 +39,9 @@ main(){
 }
 // definição das funções
 void traco(void){
-	printf("====================================\n");
+	printf("=======================================\n");
 }
 void tracoSimples(void){
-	printf("____________________________________\n");
+	printf("_______________________________________\n");
 }
+
