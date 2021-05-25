@@ -70,7 +70,3 @@ void traco(void){
 void tracoSimples(void){
 	printf("__________________________________\n");
 }
-
-
-
-
