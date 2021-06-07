@@ -27,20 +27,20 @@ int cont = 0;
 	printf("\nInverter Lista\n");
 	traco();
 	//leitura dos elementos
-	for(i=0; i<=12; i++){
+	for(i=0; i<=6; i++){
 		printf("Digite o %iº valor da lista >>> ",i+1);
 		scanf("%f", &X[i]);
 		printf("\n");
 	}
 	// Processo de inversão
-	for(i=0; i<=12; i++){
+	for(i=0; i<=6; i++){
 		Y[12-i] = X[i];
 	}
 	printf("Listas");
 	traco();
 	// Exibindo as listas
-	for(i=0; i<=12; i++){
-		printf("\n X[%i] = %0.1f \t \t Y[%i] = %0.1f\n", i, X[i], i, Y[i]);
+	for(i=0; i<=6; i++){
+		printf("\n X[%i] = %0.1f \t \t Y[%i] = %0.1f\n", i+1, X[i], i+1, Y[i]);
 	}
 	
 	
