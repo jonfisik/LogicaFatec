@@ -19,10 +19,10 @@ int main(){
 	
 	/*leia os limites dos intervalo*/
 	printf("Entre com n: ");
-	scanf("%d %d", &n);
+	scanf("%d", &n);
 
 	printf("Entre com m: ");
-	scanf("%d %d", &m);
+	scanf("%d", &m);
 	
 	/*inicializações*/
 	Xmax = Ymax = 0;
