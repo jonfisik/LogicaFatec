@@ -2,7 +2,7 @@
 Autor: Jonatan P. Paschoal
 versao: 1.0.0
 email: jonfisik@hotmail.com
-status: Professor - fisica
+status: Professor - física
 data: 13/09/2021
 */
 #include <stdio.h>
@@ -18,8 +18,11 @@ int main(){
 	printf("Maximizo x*y - x*x + y, onde 0 <= x <= n e 0 <= y <= m. \n");
 	
 	/*leia os limites dos intervalo*/
-	printf("Entre com n e m: ");
-	scanf("%d %d", &n, &m);
+	printf("Entre com n: ");
+	scanf("%d %d", &n);
+
+	printf("Entre com m: ");
+	scanf("%d %d", &m);
 	
 	/*inicializações*/
 	Xmax = Ymax = 0;
@@ -37,5 +40,4 @@ int main(){
 		}
 	}
 	printf("Valor maximo da funcao = %d foi alcancado com x = %d e y = %d. \n", Vmax, Xmax, Ymax);
-	
 }
